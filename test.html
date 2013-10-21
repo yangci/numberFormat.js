@@ -1,6 +1,6 @@
 <html>
 <head>
-<script src="numberFormat-1.0.1.js" type="text/javascript"></script>
+<script src="numberFormat-1.1.0.js" type="text/javascript"></script>
 </head>
 <body>
 <script type="text/javascript">
@@ -20,6 +20,10 @@ e("'123456'.numberFormat();");
 e("'1234567'.numberFormat();");
 e("'12345678'.numberFormat();");
 e("(123456789).numberFormat();");
+e("'1'.zeroFill(1);");
+e("'2'.zeroFill(2);");
+e("(3).zeroFill(3);");
+e("(4).zeroFill(4);");
 </script>
 </body>
 </html>
